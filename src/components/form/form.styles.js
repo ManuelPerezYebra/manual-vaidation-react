@@ -19,6 +19,7 @@ const StyledForm = styled.div`
 		border-radius: 10px;
 		border: 1px solid #dedede;
 		padding-left: 15px;
+		font-weight: 700;
 	}
 	input[type='submit'] {
 		background-color: #38cc8b;

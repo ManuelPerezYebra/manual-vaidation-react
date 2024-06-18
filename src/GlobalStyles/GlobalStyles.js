@@ -5,6 +5,7 @@ export const GlobalStyles = createGlobalStyle`
   *::after,
   *::before{
     box-sizing: border-box;
+    
   }
 
   img{
@@ -13,6 +14,9 @@ export const GlobalStyles = createGlobalStyle`
   }
   
   body{
+    background-image: url(bg-intro-desktop.png);
+    background-size: cover;
+    background-color: #FF7979;
     margin: 0;
     font-family: sans-serif;
   }

@@ -8,6 +8,7 @@ const StayledMainContainer = styled.div`
 		display: block;
 		width: 100%;
 		margin: 0 auto;
+		padding-bottom: 100px;
 	}
 `;
 const InfoContainer = styled.div`

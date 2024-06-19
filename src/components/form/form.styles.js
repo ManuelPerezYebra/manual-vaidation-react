@@ -70,6 +70,21 @@ const StyledForm = styled.div`
 			padding-right: 39px;
 			text-align: center;
 		}
+		height: 550px;
+		input[type='submit'] {
+			border: none;
+			height: 56px;
+			border-radius: 10px;
+			cursor: pointer;
+			background-color: #38cc8b;
+			color: white;
+			box-shadow: 0px -11px 4px -4px rgba(51, 185, 126, 0.8) inset;
+			font-size: 15px;
+			font-weight: 600;
+			width: 80%;
+			margin: 0 auto;
+			margin-top: 45px;
+		}
 	}
 `;
 const ErrorText = styled.span`
